@@ -11,26 +11,16 @@ export const theme = {
     xxxl: '256px',
   },
 
-  fontWeights: {
-    normal: 400,
-    bold: 700,
-  },
-
-  fontFamily: {
-    primary: "Roboto",
-  },
-
   colors: {
-    bgPrimary:'#29E3EC',
-    bgLight: '#E7FEFF',
+    bgPrimary: '#2d9db4', // blue green
+    bgLight: '#EFF9FB', // light blue-green
     bgButton: '#00bcd5',
 
-    textLight: '#b1b9c2',
-    textPrimary: 'black',
-
-    bad: 'red',
-    neutral: 'grey',
-    good: 'green',
+    label: '#F5F4F4', // light grey cultured
+    textAccent: '#C66CBA', // purple sky magenta
+    textPrimary: 'white',
+    textError: 'fcab10', // orange
+    delete: '#C66CBA', // orange
   },
 
   sizes: {
@@ -45,7 +35,8 @@ export const theme = {
   },
 
   borders: {
-    primary: `1px solid #e5eaf1`,
+      primary: `1px solid #e5eaf1`,
+      accent:  ' 2px outset rgba(25,200,226,0.56)',
   },
 
   radii: {
@@ -57,7 +48,6 @@ export const theme = {
   },
 
   shadows: {
-    primary:
-      '9px 3px 25px -4px rgba(25,200,226,0.56)',
+    primary: '9px 3px 25px -4px rgba(25,200,226,0.56)',
   },
 };
